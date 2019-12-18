@@ -36,6 +36,6 @@ Express ve MongoDB ile Restful API Geliştirme Projesi
 
 # Demo
 
-[Live demo on Heroku](https://node-egitimi-movie-api.herokuapp.com/)
+[Live demo on Heroku](https://test-node-movie-api.herokuapp.com/)
 
 enjoy!

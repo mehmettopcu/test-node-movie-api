@@ -49,4 +49,10 @@ app.use((err, req, res, next) => {
   res.json({ error: { message: err.message, status: err.code } });
 });
 
+const port = 3000;
+
+app.listen(port, () =>
+  console.log(`Example app listening at http://localhost:${port}`)
+);
+
 module.exports = app;

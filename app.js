@@ -49,7 +49,7 @@ app.use((err, req, res, next) => {
   res.json({ error: { message: err.message, status: err.code } });
 });
 
-const port = 80;
+const port = 8080;
 
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)

@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
-
-//require("dotenv").config(); // create .env file and declarate PROD_DB_URI value
-
+//require("dotenv").config();
 module.exports = () => {
   const uri = process.env.PROD_DB_URI;
   mongoose.connect(uri, {
